@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Sitemap: https://pandaai.com/sitemap.xml
+User-agent: *
+Allow: /
+Disallow: /security.js
+Disallow: /.htaccess
+
+Sitemap: https://pandaai.com/sitemap.xml
+
+# Panda AI Hub - Asistente IA Inteligente
+# Desarrollado para gaming, tecnología, cocina y más
