@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panda AI Hub - Asistente IA Inteligente | Gaming, Tech, Cocina y Más</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="🐼 Panda AI - El mejor asistente de IA gratuito para gaming, tecnología, cocina, limpieza, estudio, salud y finanzas. Respuestas instantáneas con IA avanzada.">
+  
+  <!-- 🛡️ SEGURIDAD ULTRA AVANZADA -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+  
+  <!-- SEO OPTIMIZADO -->
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Panda AI Hub">
+  <meta name="keywords" content="IA gratis, asistente virtual, gaming IA, tecnología IA, cocina IA, limpieza IA, estudio IA, salud IA, finanzas IA, Argentina, chatbot inteligente">
+  <link rel="canonical" href="https://pandaai.com">
+  
+  <!-- OPEN GRAPH OPTIMIZADO -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🐼 Panda AI Hub - Asistente IA Gratuito">
+  <meta property="og:description" content="El mejor asistente de IA para gaming, tecnología, cocina y más. ¡Completamente gratis!">
+  <meta property="og:url" content="https://pandaai.com">
+  <meta property="og:site_name" content="Panda AI Hub">
+  <meta property="og:image" content="https://pandaai.com/panda-ai-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="es_AR">
+  
+  <!-- TWITTER CARDS -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🐼 Panda AI Hub - Asistente IA Gratuito">
+  <meta name="twitter:description" content="El mejor asistente de IA para gaming, tecnología, cocina y más. ¡Completamente gratis!">
+  <meta name="twitter:image" content="https://pandaai.com/panda-ai-preview.jpg">
+  
+  <!-- FAVICON OPTIMIZADO -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐼</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐼</text></svg>">
+  
+  <!-- CSS OPTIMIZADO -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.min.css">
+  
+  <!-- STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Panda AI Hub",
+    "description": "Asistente de IA gratuito especializado en gaming, tecnología, cocina, limpieza, estudio, salud y finanzas",
+    "url": "https://pandaai.com",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "Web Browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "Panda AI Hub"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Panda AI 🐼</h1>
+    <p>Tu asistente inteligente para gaming, PC, cocina, limpieza, estudio, salud, finanzas y trabajo</p>
+  </header>
+
+  <main>
+    <!-- SECCIONES -->
+    <section id="secciones" aria-label="Categorías disponibles">
+      <button onclick="setSeccion('gaming')" data-section="gaming" aria-label="Sección Gaming">
+        🎮 Gaming
+        <small>Consejos y trucos</small>
+      </button>
+      <button onclick="setSeccion('pc')" data-section="pc" aria-label="Sección Computación">
+        💻 Computación
+        <small>Tech y hardware</small>
+      </button>
+      <button onclick="setSeccion('cocina')" data-section="cocina" aria-label="Sección Cocina">
+        🍳 Cocina
+        <small>Recetas y tips</small>
+      </button>
+      <button onclick="setSeccion('limpieza')" data-section="limpieza" aria-label="Sección Limpieza">
+        🧹 Limpieza
+        <small>Hogar perfecto</small>
+      </button>
+      <button onclick="setSeccion('estudio')" data-section="estudio" aria-label="Sección Estudio">
+        📚 Estudio
+        <small>Aprendizaje y tareas</small>
+      </button>
+      <button onclick="setSeccion('salud')" data-section="salud" aria-label="Sección Salud">
+        💪 Salud & Fitness
+        <small>Ejercicio y bienestar</small>
+      </button>
+      <button onclick="setSeccion('dinero')" data-section="dinero" aria-label="Sección Finanzas">
+        💰 Finanzas
+        <small>Ahorros e inversiones</small>
+      </button>
+      <button onclick="setSeccion('trabajo')" data-section="trabajo" aria-label="Sección Trabajo">
+        💼 Trabajo
+        <small>Carrera y productividad</small>
+      </button>
+    </section>
+
+    <!-- INPUT -->
+    <section id="consulta" aria-label="Área de consulta">
+      <input 
+        type="text" 
+        id="pregunta" 
+        placeholder="¿Qué necesitas saber? Escribe tu pregunta aquí..."
+        maxlength="200"
+        aria-label="Campo de pregunta"
+        autocomplete="off"
+      >
+      <button onclick="preguntarIA()" aria-label="Enviar pregunta a la IA">
+        <span id="btn-text">Preguntar</span>
+      </button>
+    </section>
+
+    <!-- RESPUESTA -->
+    <section id="resultado" aria-label="Área de respuesta">
+      <h2 id="titulo">¡Hola! Selecciona una categoría y hazme tu pregunta 👋</h2>
+      <div id="respuesta" role="region" aria-live="polite">
+        Estoy aquí para ayudarte con gaming, computación, cocina, limpieza, estudio, salud, finanzas y trabajo. 
+        ¡Pregúntame lo que necesites!
+      </div>
+    </section>
+  </main>
+
+  <!-- 🛡️ SISTEMA DE SEGURIDAD -->
+  <script src="security.js" defer></script>
+  
+  <!-- JS PRINCIPAL -->
+  <script src="app.js" defer></script>
+  
+  <!-- ANALYTICS (opcional - agregar tu código) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panda AI Hub - Tu Asistente Inteligente</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Panda AI - Asistente inteligente especializado en gaming, computación, cocina y limpieza">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- 🛡️ SEGURIDAD ULTRA AVANZADA -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+  
+  <!-- SEO y Meta Tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Panda AI Hub">
+  <meta name="keywords" content="IA, asistente virtual, gaming, tecnología, cocina, limpieza, Argentina">
+  <link rel="canonical" href="https://pandaai.com">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Panda AI Hub - Asistente IA Inteligente">
+  <meta property="og:description" content="El mejor asistente de IA para gaming, tecnología, cocina y más">
+  <meta property="og:url" content="https://pandaai.com">
+  <meta property="og:site_name" content="Panda AI Hub">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Panda AI 🐼</h1>
+    <p>Tu asistente inteligente para gaming, PC, cocina y más</p>
+  </header>
+
+  <main>
+    <!-- SECCIONES -->
+    <section id="secciones">
+      <button onclick="setSeccion('gaming')" data-section="gaming">
+        🎮 Gaming
+        <small>Consejos y trucos</small>
+      </button>
+      <button onclick="setSeccion('pc')" data-section="pc">
+        💻 Computación
+        <small>Tech y hardware</small>
+      </button>
+      <button onclick="setSeccion('cocina')" data-section="cocina">
+        🍳 Cocina
+        <small>Recetas y tips</small>
+      </button>
+      <button onclick="setSeccion('limpieza')" data-section="limpieza">
+        🧹 Limpieza
+        <small>Hogar perfecto</small>
+      </button>
+      <button onclick="setSeccion('estudio')" data-section="estudio">
+        📚 Estudio
+        <small>Aprendizaje y tareas</small>
+      </button>
+      <button onclick="setSeccion('salud')" data-section="salud">
+        💪 Salud & Fitness
+        <small>Ejercicio y bienestar</small>
+      </button>
+      <button onclick="setSeccion('dinero')" data-section="dinero">
+        💰 Finanzas
+        <small>Ahorros e inversiones</small>
+      </button>
+      <button onclick="setSeccion('trabajo')" data-section="trabajo">
+        💼 Trabajo
+        <small>Carrera y productividad</small>
+      </button>
+    </section>
+
+    <!-- INPUT -->
+    <section id="consulta">
+      <input 
+        type="text" 
+        id="pregunta" 
+        placeholder="¿Qué necesitas saber? Escribe tu pregunta aquí..."
+        maxlength="200"
+      >
+      <button onclick="preguntarIA()">
+        <span id="btn-text">Preguntar</span>
+      </button>
+    </section>
+
+    <!-- RESPUESTA -->
+    <section id="resultado">
+      <h2 id="titulo">¡Hola! Selecciona una categoría y hazme tu pregunta 👋</h2>
+      <div id="respuesta">
+        Estoy aquí para ayudarte con gaming, computación, cocina y limpieza. 
+        ¡Pregúntame lo que necesites!
+      </div>
+    </section>
+  </main>
+
+  <!-- 🛡️ SISTEMA DE SEGURIDAD -->
+  <script src="security.js"></script>
+  
+  <!-- JS PRINCIPAL -->
+  <script src="app.js"></script>
+</body>
+</html>
